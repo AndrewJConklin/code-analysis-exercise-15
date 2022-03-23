@@ -17,18 +17,50 @@ function (person, petName){
 }
 ```
 
-Inputs and outputs should be valid JavaScript values!
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+Inputs and outputs should be valid JavaScript values!
+| Input | 
+(Andrew = {
+  dogs: [
+    {
+      name: "Roxie",
+      age: 10,
+      color: "brown"
+    },
+    {
+      name: "Mia",
+      age: 12,
+      color: "black"
+    }
+  ]
+  cats: [
+    {
+      name: "Raja",
+      age: 5,
+      color: "orange"
+    },
+    {
+      name: "Ellie",
+      age: 7,
+      color: "tri-colored"
+    }
+  ]
+}
+  , "Roxie")     
+
+| Output | 
+{
+      name: "Roxie",
+      age: 10,
+      color: "brown"
+    }
+
+    
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This program takes an input of an object(person) which includes an array (dogs) of objects. Inside the objects will be a property for the name of the object. The program also takes another input of a string (petName). The program will compare the string to the names of each object. If the string matches the name of the object, the program will output the entire object.    </td>
   </tr>
 </table>
 
