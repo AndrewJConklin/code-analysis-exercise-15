@@ -19,6 +19,7 @@ function (person, petName){
 
 
 Inputs and outputs should be valid JavaScript values!
+
 | Input | 
 (Andrew = {
   dogs: [
@@ -55,7 +56,76 @@ Inputs and outputs should be valid JavaScript values!
       color: "brown"
     }
 
-    
+| Input | 
+(Andrew = {
+  dogs: [
+    {
+      name: "Roxie",
+      age: 10,
+      color: "brown"
+    },
+    {
+      name: "Mia",
+      age: 12,
+      color: "black"
+    }
+  ]
+  cats: [
+    {
+      name: "Raja",
+      age: 5,
+      color: "orange"
+    },
+    {
+      name: "Ellie",
+      age: 7,
+      color: "tri-colored"
+    }
+  ]
+}
+  , "Mia")     
+
+| Output | 
+{
+      name: "Mia",
+      age: 12,
+      color: "black"
+    }
+
+| Input | 
+(Andrew = {
+  dogs: [
+    {
+      name: "Roxie",
+      age: 10,
+      color: "brown"
+    },
+    {
+      name: "Mia",
+      age: 12,
+      color: "black"
+    }
+  ]
+  cats: [
+    {
+      name: "Raja",
+      age: 5,
+      color: "orange"
+    },
+    {
+      name: "Ellie",
+      age: 7,
+      color: "tri-colored"
+    }
+  ]
+}
+  , "Raja")     
+
+| Output | 
+{
+      undefined
+    }
+
 
 <table>
   <tr>
